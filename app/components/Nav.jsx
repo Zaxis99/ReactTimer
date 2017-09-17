@@ -9,8 +9,8 @@ class Nav extends React.Component {
                 <div className="top-bar-left">
                     <ul className="menu">
                         <li className="menu-text">React Timer App</li>
-                        <li><NavLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Timer</NavLink></li>
-                        <li><NavLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Countdown</NavLink></li>
+                        <li><NavLink exact to="/" activeClassName="active-link">Timer</NavLink></li>
+                        <li><NavLink to="/countdown" activeClassName="active-link">Countdown</NavLink></li>
                     </ul>
                 </div>
                 <div className="top-bar-right">
